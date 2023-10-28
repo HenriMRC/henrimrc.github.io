@@ -2,6 +2,7 @@
 
 body {
     height: 100vh;
+    min-width: 40rem;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     background-color: whitesmoke;
@@ -52,11 +53,6 @@ div.whiteSpace{
     padding-left: 1.5rem;
 }
 
-#nome {
-    white-space: nowrap;
-}
-
 #cp {
-    white-space: nowrap;
     padding-left: 2.5rem;
 }
