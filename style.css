@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 body {
-    height: 100vh;
-    min-width: 40rem;
+    min-width: 48.5rem;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     background-color: whitesmoke;
@@ -31,14 +30,10 @@ h3 {
 }
 
 ul {
-    padding-left: 2.5rem;
+    padding-inline-start: 2.5rem;
 }
 
-li {
-    display: list-item;
-}
-
-div.whiteSpace{
+div.whiteSpace {
     height: 5rem;
 }
 
@@ -49,10 +44,23 @@ div.whiteSpace{
     gap: 4rem;
 }
 
-.listType2{
-    padding-left: 1.5rem;
+.listType2,
+.listType2 ul
+{
+    padding-inline-start: 1.5rem;
 }
 
 #cp {
-    padding-left: 2.5rem;
+    padding-left: 6.5rem;
+}
+
+#myPicture{
+    height: 6rem;
+}
+
+#mainTitle {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    gap: 4rem;
 }
