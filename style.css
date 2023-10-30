@@ -1,20 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 body {
-    min-width: 48.5rem;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     background-color: whitesmoke;
     color: black;
-    margin: 2rem 5%;
+}
+
+main {
+    min-width: 53.5rem;
+    max-width: 60rem;
+    padding: 2rem;
+    margin: 0 auto;
 }
 
 h1 {
+    font-size: 2rem;
     text-align: center;
     margin-bottom: 0.5rem;
 }
 
 h2 {
+    font-size: 1.5rem;
     border-top-style: solid;
     border-bottom-style: solid;
     border-width: 0.25rem;
@@ -25,12 +32,26 @@ h2 {
 }
 
 h3 {
+    font-size: 1.25rem;
     margin-top: 0.75rem;
     margin-bottom: 0.25rem;
 }
 
+h4 {
+    font-size: 1.1rem;
+}
+
+p {
+    margin: 0.25rem 0rem;
+}
+
 ul {
     padding-inline-start: 2.5rem;
+    list-style: disc;
+}
+
+ul ul{
+    list-style: circle;
 }
 
 div.whiteSpace {
@@ -38,15 +59,14 @@ div.whiteSpace {
 }
 
 .horizontalGroup {
-    align-items: center;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     gap: 4rem;
 }
 
 .listType2,
-.listType2 ul
-{
+.listType2 ul {
     padding-inline-start: 1.5rem;
 }
 
@@ -54,7 +74,7 @@ div.whiteSpace {
     padding-left: 6.5rem;
 }
 
-#myPicture{
+#myPicture {
     height: 6rem;
 }
 
