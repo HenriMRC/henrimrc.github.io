@@ -5,6 +5,12 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-color: whitesmoke;
     color: black;
+    counter-reset: section;
+}
+
+h2::before {
+    counter-increment: section;
+    content: counter(section, upper-roman) ". ";
 }
 
 main {
@@ -50,12 +56,16 @@ ul {
     list-style: disc;
 }
 
-ul ul{
+ul ul {
     list-style: circle;
 }
 
 div.whiteSpace {
     height: 5rem;
+}
+
+.first-line-ident {
+    text-indent: 0.75rem;
 }
 
 .horizontalGroup {
