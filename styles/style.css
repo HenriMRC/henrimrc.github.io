@@ -1,0 +1,33 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+:root {
+    --background-color: #000000;
+    --first-color: #F5F5F5;
+    --second-color: #22DEFF;
+    --third-color: #FF8621;
+
+    --font: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+h4 {
+    font-size: 1.1rem;
+}
+
+sup {
+    font-size: 0.8rem;
+    position:relative;
+    bottom: 0.25rem;
+}
