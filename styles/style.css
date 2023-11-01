@@ -35,3 +35,21 @@ sup {
     position:relative;
     bottom: 0.25rem;
 }
+
+.main_link {
+    text-decoration: none;
+    border-radius: 0.3rem;
+    color: var(--third-color);
+    background-color: var(--background-color);
+    transition: 0.25s;
+}
+
+.main_link:hover {
+    background-color: var(--background-color_hover);
+    transition: 0.25s;
+}
+
+.main_link:active {
+    background-color: var(--background-color_active);
+    transition: 0.25s;
+}

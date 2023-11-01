@@ -39,26 +39,6 @@ strong {
     color: var(--second-color);
 }
 
-a {
-    text-decoration: none;
-    border-radius: 0.3rem;
-    color: var(--third-color);
-    background-color: var(--background-color);
-    transition: 0.25s;
-}
-
-a:hover {
-    background-color: var(--background-color_hover);
-    transition: 0.25s;
-}
-
-a:active {
-    background-color: var(--background-color_active);
-    transition: 0.25s;
-}
-
-
-
 section p {
     padding-left: 1rem;
 }
