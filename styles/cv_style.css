@@ -70,10 +70,6 @@ ul ul {
     list-style: circle;
 }
 
-div.whiteSpace {
-    height: 5rem;
-}
-
 .first-line-ident {
     text-indent: 0.75rem;
 }
