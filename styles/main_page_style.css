@@ -41,8 +41,23 @@ strong {
 
 a {
     text-decoration: none;
+    border-radius: 0.3rem;
     color: var(--third-color);
+    background-color: var(--background-color);
+    transition: 0.25s;
 }
+
+a:hover {
+    background-color: var(--background-color_hover);
+    transition: 0.25s;
+}
+
+a:active {
+    background-color: var(--background-color_active);
+    transition: 0.25s;
+}
+
+
 
 section p {
     padding-left: 1rem;
@@ -56,6 +71,8 @@ p+p {
 
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
     width: 90%;
     text-align: center;
     border-radius: 1rem;
@@ -64,6 +81,23 @@ p+p {
     text-decoration: none;
     background-color: var(--third-color);
     color: var(--background-color);
+    transition: 0.25s;
+}
+
+.button:hover {
+    background-color: var(--third-color_hover);
+    transition: 0.25s;
+}
+
+.button:active {
+    border-radius: 2rem;
+    background-color: var(--third-color_active);
+    transition: 0.25s;
+}
+
+.button__icon {
+    height: 1.5rem;
+    width: 1.5rem;
 }
 
 .group {

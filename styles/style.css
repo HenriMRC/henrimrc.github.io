@@ -3,9 +3,13 @@
 
 :root {
     --background-color: #000000;
+    --background-color_hover: #202020;
+    --background-color_active: #303030;
     --first-color: #F5F5F5;
     --second-color: #22DEFF;
     --third-color: #FF8621;
+    --third-color_hover: #CC7143;
+    --third-color_active: #997151;
 
     --font: 'Montserrat', sans-serif;
 }
