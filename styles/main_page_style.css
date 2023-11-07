@@ -2,7 +2,6 @@
 
 body {
     min-height: 100vh;
-    min-width: 35rem;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -53,7 +52,6 @@ p+p {
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
-    width: 90%;
     text-align: center;
     border-radius: 1rem;
     font-size: 1.5rem;
@@ -62,6 +60,14 @@ p+p {
     background-color: var(--third-color);
     color: var(--background-color);
     transition: 0.25s;
+}
+
+.group .button {
+    width: 100%;
+}
+
+.strong_group .button {
+    width: 90%;
 }
 
 .button:hover {
@@ -80,12 +86,14 @@ p+p {
     width: 1.5rem;
 }
 
-.group, .strong_group {
+.group,
+.strong_group {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    width: 30rem;
+    width: 100%;
+    max-width: 30rem;
     text-align: center;
     gap: 1rem;
     font-size: 1.5rem;
@@ -97,13 +105,24 @@ p+p {
 .strong_group {
     border: 0.125rem solid var(--third-color);
     border-radius: 1rem;
-    width: 27rem;
 }
 
 #more-about-me {
     display: flex;
     justify-content: left;
-    flex-direction: row;
     align-items: center;
     gap: 1rem;
+    padding: 0rem 1rem;
+}
+
+@media only screen and (max-width: 640px) {
+    #more-about-me {
+        flex-direction: column;
+    }
+}
+
+@media only screen and not (max-width: 640px) {
+    #more-about-me {
+        flex-direction: row;
+    }
 }
