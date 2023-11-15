@@ -20,18 +20,50 @@ header {
 }
 
 main {
-    min-width: 53.5rem;
-    max-width: 60rem;
-    padding: 5rem;
+    max-width: 55rem;
     margin: 0 auto;
     background-color: var(--doc-background);
     color: var(--doc-font-color);
 }
 
 h1 {
-    text-align: center;
     margin-bottom: 0.5rem;
 }
+
+@media only screen and (max-width: 650px) {
+    main {
+        padding: 5rem 0.5rem;
+    }
+
+    h1 {
+        text-align: left;
+    }    
+
+    header > .horizontalGroup {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 4rem;
+    }    
+}
+
+@media only screen and not (max-width: 650px) {
+    main {
+        padding: 5rem 3%;
+    }
+
+    h1 {
+        text-align: center;
+    }
+    
+    .horizontalGroup {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 4rem;
+    }     
+}
+
 
 h2::before {
     counter-increment: section;
@@ -72,13 +104,6 @@ ul ul {
 
 .first-line-ident {
     text-indent: 0.75rem;
-}
-
-.horizontalGroup {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 4rem;
 }
 
 .listType2,
