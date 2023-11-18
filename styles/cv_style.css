@@ -5,6 +5,14 @@
     --doc-background: #F5F5F5;
 }
 
+html {
+    /*https://stackoverflow.com/questions/40892327/why-is-font-size-changing-depending-on-portrait-or-landscape-for-mobile-devices*/
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
 body {
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
