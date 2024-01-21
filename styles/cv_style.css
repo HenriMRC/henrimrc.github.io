@@ -1,6 +1,6 @@
 @import url(style.css);
 
-:root{
+:root {
     --doc-font-color: #000000;
     --doc-background: #F5F5F5;
 }
@@ -15,7 +15,7 @@ html {
 
 body {
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font);
     background-color: black;
     counter-reset: section;
 }
@@ -45,14 +45,14 @@ h1 {
 
     h1 {
         text-align: left;
-    }    
+    }
 
-    header > .horizontalGroup {
+    header>.horizontalGroup {
         display: flex;
         align-items: center;
         justify-content: space-between;
         gap: 4rem;
-    }    
+    }
 }
 
 @media only screen and not (max-width: 650px) {
@@ -63,13 +63,13 @@ h1 {
     h1 {
         text-align: center;
     }
-    
+
     .horizontalGroup {
         display: flex;
         align-items: center;
         justify-content: space-between;
         gap: 4rem;
-    }     
+    }
 }
 
 
@@ -136,4 +136,8 @@ ul ul {
 
 #header-div {
     padding: 0rem 2rem;
+}
+
+i {
+    font-style: italic
 }
